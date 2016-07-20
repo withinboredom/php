@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM resin/armv7hf-debian:jessie
 
 # persistent / runtime deps
 ENV PHPIZE_DEPS \
